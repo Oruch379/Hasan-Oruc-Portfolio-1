@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileImg from "./assets/profile.jpg";
-import Zeyno from "./assets/zeyno.JPG";
+import Zeyno from "./assets/zeyno.jpg";
 
 export default function App() {
   return (
