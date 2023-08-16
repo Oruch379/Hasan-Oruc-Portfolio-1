@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    @apply antialiased select-none
+@layer components {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
+
+html {
+  @apply antialiased font-sans select-none bg-bgblack no-scrollbar scroll-smooth;
+}
+  

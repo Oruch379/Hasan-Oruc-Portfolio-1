@@ -1,15 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <div className='h-20 p-5 px-16 bg-gray-300 flex justify-between items-center sticky top-0 z-10'>
+    <div className="h-20 w-full p-5 px-16 pr-24 bg-bgdarkgray text-bgwhite flex justify-center md:justify-between items-center fixed top-0 z-10 opacity-90 drop-shadow-md">
       <div>
-        Hasan Oruc
+        <Link className="cursor-pointer" to="top">Hasan Oruc</Link>
       </div>
-      <div>
-        menü1
+      <div className="hidden md:block">
+        <Link className="cursor-pointer" to="info">Info</Link>
       </div>
     </div>
-  )
+  );
 }
