@@ -15,6 +15,7 @@ export default function App() {
           Designed and coded as a portfolio website by Hasan Oruc -a very novice coder-.
         </p>
       </div>
+      <div className="flex justify-center mt-5"><button><a href="https://youtu.be/03Ya2AL8EDg?t=4" className="text-bgdarkgray">Hasan</a></button></div>
       <Info />
     </div>
   );
