@@ -45,5 +45,6 @@
   "devDependencies": {
     "@types/react-scroll": "^1.8.7",
     "tailwindcss": "^3.3.3"
+
   }
 }

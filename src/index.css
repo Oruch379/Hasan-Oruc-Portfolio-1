@@ -15,6 +15,9 @@
 }
 
 html {
-  @apply antialiased font-sans select-none bg-bgblack no-scrollbar scroll-smooth;
+  @apply antialiased font-sans select-none no-scrollbar scroll-smooth;
 }
-  
+
+body {
+  @apply bg-bgblack;
+}
