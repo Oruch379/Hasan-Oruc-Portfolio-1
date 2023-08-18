@@ -1,13 +1,14 @@
 import React from "react";
 import ProfileImg from "./assets/profile.jpg";
 import Info from "./components/info";
+import Projects from "./components/projects";
 import { FaGithubAlt, FaArrowRight } from "react-icons/fa";
 
 export default function App() {
   return (
-    <div className="relative text-bgwhite m-5">
+    <div className="relative text-bgwhite">
       <div
-        className="flex flex-col p-20 pt-36 md:p-40 gap-20 md:flex-row md:justify-between items-center h-screen w-full"
+        className="flex flex-col p-20 pt-36 md:p-40 gap-20 md:flex-row md:justify-between items-center h-screen w-full bg-[url('./assets/background-image.jpg')] bg-center bg-cover"
         id="top"
       >
         <img
@@ -22,7 +23,7 @@ export default function App() {
           </p>
           <a href="https://github.com/Oruch379" target="_blank" rel="noopener noreferrer" className="flex h-16 w-48 self-center bg-bgdarkgray justify-center items-center rounded-md text-bgwhite text-md font-semibold gap-4 hover:bg-bgred hover:text-bgblack transition">
             <FaGithubAlt className="text-xl" />
-            <p className="flex items-center gap-2">Github sayfam<FaArrowRight /></p>
+            <p className="flex items-center gap-2">Github Page<FaArrowRight /></p>
           </a>
         </div>
       </div>
@@ -30,13 +31,14 @@ export default function App() {
         <button>
           <a
             href="https://youtu.be/03Ya2AL8EDg?t=4"
-            className="text-bgdarkgray"
+            className="text-bgdarkgray hover:text-bgwhite"
           >
             Hasan
           </a>
         </button>
       </div>
       <Info />
+      <Projects />
     </div>
   );
 }
