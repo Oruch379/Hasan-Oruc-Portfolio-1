@@ -41,9 +41,9 @@ export default function Info() {
           imageUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png"
         />
       </div>
-      <p className="flex justify-center mt-20 mb-14 text-xl font-semibold hover:scale-110 hover:text-bgred transition">
+      <h1 className="flex justify-center mt-20 mb-14 text-xl font-semibold hover:scale-110 hover:text-bgred transition">
         Education
-      </p>
+      </h1>
       <div className="flex flex-col md:flex-row justify-evenly text-center items-center gap-4 border-2 border-bgdarkgray rounded-sm p-5">
         <img
           className="h-52 drop-shadow-md"

@@ -16,7 +16,7 @@ export default function App() {
           alt="profile"
           className="rounded-full h-52 w-52 object-cover drop-shadow-md"
         />
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 md:mt-10">
           <p className="break-words max-w-sm text-center">
             Designed and coded as a portfolio website by Hasan Oruc -a very
             novice coder-.
