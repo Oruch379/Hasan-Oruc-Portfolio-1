@@ -5,9 +5,9 @@ export default function Info() {
   return (
     <div id="info" className="md:p-10 md:pt-24 p-5 pt-24">
       <div className="flex justify-center mb-6">
-        <p className="text-xl font-semibold hover:scale-110 hover:text-bgred transition">
+        <h1 className="text-xl font-semibold hover:scale-110 hover:text-bgred transition">
           Technologies that I know
-        </p>
+        </h1>
       </div>
       <div className="flex justify-evenly flex-wrap gap-4">
         <Card
@@ -51,7 +51,7 @@ export default function Info() {
           alt="Hatay Mustafa Kemal Üniversitesi"
         />
         <div className="flex flex-col items-center gap-5 text-lg">
-          <p className="font-semibold text-xl text-bgred">Hatay Mustafa Kemal Üniversitesi</p>
+          <h2 className="font-semibold text-xl text-bgred">Hatay Mustafa Kemal Üniversitesi</h2>
           <p>English Language Teaching</p>
           <p>2022 - Present</p>
         </div>
